@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <div>
+      <div className="btn__deposit">
+        <button className="btn btn-primary">Deposit</button>
+      </div>
+      <div className="btn__withdrawll">
+        <button className="btn ">Withdrawll</button>
+      </div>
+    </div>
+  );
+};
 
-export default Home
+export default Home;

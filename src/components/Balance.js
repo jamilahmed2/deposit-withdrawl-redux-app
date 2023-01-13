@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const Balance = () => {
   return (
-    <div>Balance</div>
-  )
-}
+    <div>
+      <button type="button" disabled className="btnd">
+        Your Balance $0
+      </button>
+    </div>
+  );
+};
 
-export default Balance
+export default Balance;
