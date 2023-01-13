@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import { Provider } from 'react-redux';
 import { store } from './state/Store';
-import Balance from './components/Balance';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

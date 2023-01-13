@@ -6,13 +6,13 @@ export const depositMoney = (amount)=>{
             payload: amount
         })
     }
-}
+};
 
-export const withdrawllMoney = (amount)=>{
+export const withdrawMoney = (amount)=>{
     return (dispatch)=>{
         dispatch({
-            type:'withdrwa',
+            type:'withdraw',
             payload: amount
         })
     }
-}
+};

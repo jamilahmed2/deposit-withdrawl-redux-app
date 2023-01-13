@@ -6,7 +6,7 @@ const Balance = () => {
   return (
     <>
       <button type="button" disabled className="btnd">
-        Your Balance {amount}
+        Your Balance ${amount}
       </button>
     </>
   );
